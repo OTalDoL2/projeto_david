@@ -67,15 +67,17 @@ class _HomeState extends State<Home> {
                     child: ElevatedButton(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.red,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(5)
-                          )
-                        ),
-                        child: Text('Entrar', style: TextStyle(color: Colors.white, ))),
+                            backgroundColor: Colors.red,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(5))),
+                        child: Text('Entrar',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ))),
                   ),
                 ),
                 // inputText(texto: 'pastel')
+                TextButton(onPressed: () {}, child: const Text('Cadastre-se'))
               ],
             )));
   }
